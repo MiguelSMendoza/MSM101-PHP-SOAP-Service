@@ -1,0 +1,78 @@
+a:11:{s:7:"version";s:3:"2.3";s:7:"methods";a:3:{i:0;O:13:"PhpWsdlMethod":7:{s:5:"Param";a:0:{}s:6:"Return";O:12:"PhpWsdlParam":5:{s:4:"Type";s:11:"ClientArray";s:4:"Docs";N;s:4:"GUID";s:13:"536137945b0ec";s:4:"Name";s:6:"return";s:8:"Settings";N;}s:8:"IsGlobal";b:0;s:4:"GUID";s:13:"536137945b141";s:4:"Name";s:10:"getClients";s:4:"Docs";N;s:8:"Settings";N;}i:1;O:13:"PhpWsdlMethod":7:{s:5:"Param";a:3:{i:0;O:12:"PhpWsdlParam":5:{s:4:"Type";s:6:"string";s:4:"Docs";N;s:4:"GUID";s:13:"536137945b1c4";s:4:"Name";s:4:"Name";s:8:"Settings";N;}i:1;O:12:"PhpWsdlParam":5:{s:4:"Type";s:6:"string";s:4:"Docs";N;s:4:"GUID";s:13:"536137945b219";s:4:"Name";s:7:"Surname";s:8:"Settings";N;}i:2;O:12:"PhpWsdlParam":5:{s:4:"Type";s:6:"string";s:4:"Docs";N;s:4:"GUID";s:13:"536137945b26c";s:4:"Name";s:3:"Age";s:8:"Settings";N;}}s:6:"Return";O:12:"PhpWsdlParam":5:{s:4:"Type";s:7:"integer";s:4:"Docs";N;s:4:"GUID";s:13:"536137945b2c0";s:4:"Name";s:6:"return";s:8:"Settings";N;}s:8:"IsGlobal";b:0;s:4:"GUID";s:13:"536137945b311";s:4:"Name";s:9:"newClient";s:4:"Docs";N;s:8:"Settings";N;}i:2;O:13:"PhpWsdlMethod":7:{s:5:"Param";a:4:{i:0;O:12:"PhpWsdlParam":5:{s:4:"Type";s:6:"string";s:4:"Docs";N;s:4:"GUID";s:13:"536137945b398";s:4:"Name";s:2:"ID";s:8:"Settings";N;}i:1;O:12:"PhpWsdlParam":5:{s:4:"Type";s:6:"string";s:4:"Docs";N;s:4:"GUID";s:13:"536137945b3ec";s:4:"Name";s:4:"Name";s:8:"Settings";N;}i:2;O:12:"PhpWsdlParam":5:{s:4:"Type";s:6:"string";s:4:"Docs";N;s:4:"GUID";s:13:"536137945b43f";s:4:"Name";s:7:"Surname";s:8:"Settings";N;}i:3;O:12:"PhpWsdlParam":5:{s:4:"Type";s:6:"string";s:4:"Docs";N;s:4:"GUID";s:13:"536137945b492";s:4:"Name";s:3:"Age";s:8:"Settings";N;}}s:6:"Return";O:12:"PhpWsdlParam":5:{s:4:"Type";s:7:"integer";s:4:"Docs";N;s:4:"GUID";s:13:"536137945b4e5";s:4:"Name";s:6:"return";s:8:"Settings";N;}s:8:"IsGlobal";b:0;s:4:"GUID";s:13:"536137945b536";s:4:"Name";s:12:"updateClient";s:4:"Docs";N;s:8:"Settings";N;}}s:5:"types";a:2:{i:0;O:14:"PhpWsdlComplex":7:{s:4:"Type";N;s:8:"Elements";a:4:{i:0;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:0;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:7:"integer";s:4:"Docs";s:25:"ID that identifies Client";s:4:"GUID";s:13:"536137945ada5";s:4:"Name";s:2:"ID";s:8:"Settings";N;}i:1;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:1;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:6:"string";s:4:"Docs";s:14:"Name of Client";s:4:"GUID";s:13:"536137945ae0c";s:4:"Name";s:4:"Name";s:8:"Settings";N;}i:2;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:1;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:6:"string";s:4:"Docs";s:17:"Surname of Client";s:4:"GUID";s:13:"536137945ae66";s:4:"Name";s:7:"Surname";s:8:"Settings";N;}i:3;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:0;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:7:"integer";s:4:"Docs";s:13:"Age of Client";s:4:"GUID";s:13:"536137945aebf";s:4:"Name";s:3:"Age";s:8:"Settings";N;}}s:7:"IsArray";b:0;s:4:"GUID";s:13:"536137945af35";s:4:"Name";s:6:"Client";s:4:"Docs";s:45:"Entity that stores information about a Client";s:8:"Settings";N;}i:1;O:14:"PhpWsdlComplex":7:{s:4:"Type";s:6:"Client";s:8:"Elements";a:0:{}s:7:"IsArray";b:1;s:4:"GUID";s:13:"536137945b03d";s:4:"Name";s:11:"ClientArray";s:4:"Docs";s:19:"An array of Clients";s:8:"Settings";N;}}s:5:"files";a:1:{i:0;s:68:"/kunden/homepages/13/d434103857/htdocs/services/SOAP/SOAPService.php";}s:4:"name";s:14:"SOAPWebService";s:4:"docs";N;s:4:"html";s:4362:"<html>
+<head>
+<title>SOAPWebService interface description</title>
+<style type="text/css" media="all">
+body{font-family:Calibri,Arial;background-color:#fefefe;}
+.pre{font-family:Courier;}
+.normal{font-family:Calibri,Arial;}
+.bold{font-weight:bold;}
+h1,h2,h3{font-family:Verdana,Times;}
+h1{border-bottom:1px solid gray;}
+h2{border-bottom:1px solid silver;}
+h3{border-bottom:1px dashed silver;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+.blue{color:#3400FF;}
+.lightBlue{color:#5491AF;}
+</style>
+<style type="text/css" media="print">
+.noprint{display:none;}
+</style>
+</head>
+<body>
+<h1>SOAPWebService SOAP WebService interface description</h1>
+<p>Endpoint URI: <span class="pre">http://services.netrunners.es/SOAP/SOAPService.php</span></p>
+<p>WSDL URI: <span class="pre"><a href="http://services.netrunners.es/SOAP/SOAPService.php?WSDL&readable">http://services.netrunners.es/SOAP/SOAPService.php?WSDL</a></span></p>
+<p>PHP SOAP client download URI: <span class="pre"><a href="http://services.netrunners.es/SOAP/SOAPService.php?PHPSOAPCLIENT">http://services.netrunners.es/SOAP/SOAPService.php?PHPSOAPCLIENT</a></span></p>
+<div class="noprint">
+<h2>Index</h2>
+<p>Complex types:</p>
+<ul>
+<li><a href="#Client"><span class="pre">Client</span></a></li>
+<li><a href="#ClientArray"><span class="pre">ClientArray</span></a></li>
+</ul>
+<p>Public methods:</p>
+<ul>
+<li><a href="#getClients"><span class="pre">getClients</span></a></li>
+<li><a href="#newClient"><span class="pre">newClient</span></a></li>
+<li><a href="#updateClient"><span class="pre">updateClient</span></a></li>
+</ul>
+</div>
+<h2>Complex types</h2>
+<h3>Client</h3>
+<a name="Client"></a>
+<p>Entity that stores information about a Client</p>
+<ul class="pre">
+<li><span class="blue">integer</span> <span class="bold">ID</span> (nillable = <span class="blue">false</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">ID that identifies Client</span></li>
+<li><span class="blue">string</span> <span class="bold">Name</span> (nillable = <span class="blue">true</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">Name of Client</span></li>
+<li><span class="blue">string</span> <span class="bold">Surname</span> (nillable = <span class="blue">true</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">Surname of Client</span></li>
+<li><span class="blue">integer</span> <span class="bold">Age</span> (nillable = <span class="blue">false</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">Age of Client</span></li>
+</ul>
+<h3>ClientArray</h3>
+<a name="ClientArray"></a>
+<p>This is an array type of <span class="pre"><a href="#Client"><span class="lightBlue">Client</span></a></span>.</p>
+<p>An array of Clients</p>
+<h2>Public methods</h2>
+<h3>getClients</h3>
+<a name="getClients"></a>
+<p class="pre"><a href="#ClientArray"><span class="lightBlue">ClientArray</span></a> <span class="bold">getClients</span> (
+)</p>
+<h3>newClient</h3>
+<a name="newClient"></a>
+<p class="pre"><span class="blue">integer</span> <span class="bold">newClient</span> (<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">string</span> <span class="bold">Name</span>, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">string</span> <span class="bold">Surname</span>, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">string</span> <span class="bold">Age</span><br>
+)</p>
+<h3>updateClient</h3>
+<a name="updateClient"></a>
+<p class="pre"><span class="blue">integer</span> <span class="bold">updateClient</span> (<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">string</span> <span class="bold">ID</span>, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">string</span> <span class="bold">Name</span>, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">string</span> <span class="bold">Surname</span>, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">string</span> <span class="bold">Age</span><br>
+)</p>
+<hr>
+<p><small>Powered by <a href="http://code.google.com/p/php-wsdl-creator/">PhpWsdl</a><span class="noprint"> - PDF download: <a href="http://online.htmltopdf.de/?plain=1&filename=SOAPWebService-webservices.pdf&print=1">Download this page as PDF</a></span></small></p>
+</body>
+</html>";s:3:"php";N;s:7:"wsdluri";N;s:6:"phpuri";N;s:6:"docuri";N;}
